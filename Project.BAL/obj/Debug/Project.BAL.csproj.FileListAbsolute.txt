@@ -1,0 +1,15 @@
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\Project.BAL.dll.config
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\Project.BAL.dll
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\Project.BAL.pdb
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\EntityFramework.dll
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\Project.Models.dll
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\Project.Models.pdb
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\Project.Models.dll.config
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\EntityFramework.xml
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\obj\Debug\Project.BAL.csprojAssemblyReference.cache
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\obj\Debug\Project.BAL.csproj.CoreCompileInputs.cache
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\obj\Debug\Project.BAL.csproj.CopyComplete
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\obj\Debug\Project.BAL.dll
+C:\Users\phucm\Documents\ProjectSem3\Project.BAL\obj\Debug\Project.BAL.pdb
