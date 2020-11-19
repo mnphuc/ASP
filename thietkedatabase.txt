@@ -1,0 +1,8 @@
+bảng user
+id, username, password, họ tên, address, status, ngày tạo
+bảng book
+id, tiêu đề, mô tả, ảnh mô tả, nội dung, người đăng, giá, mã khuyến mại ngày tạo
+bẳng order 
+id, id người dùng,  người mua, họ tên người mua, địa chỉ nhận hàng, số điện thoại, tổng tiền hóa đơn, phương thức thanh toán
+bảng order Detail
+id, id order, id sách, số lượng, giá sách ( sau khuyến mại), thành tiền
