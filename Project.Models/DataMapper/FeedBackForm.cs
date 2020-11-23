@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class FeedBackForm
+   public class FeedBackForm
     {
         public int FeedBackId { get; set; }
         public string Content { get; set; }

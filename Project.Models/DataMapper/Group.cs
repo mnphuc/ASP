@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class Group
+    public class Group
     {
         [Key]
 

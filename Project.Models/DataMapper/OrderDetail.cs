@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class OrderDetail
+    public class OrderDetail
     {
         [Column(Order = 0), Key]
         public int OrderId { get; set; }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class Order
+    public class Order
     {
         [Key]
         [Required]
