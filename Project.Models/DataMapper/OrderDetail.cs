@@ -12,13 +12,15 @@ namespace Project.Models.DataMapper
     {
         [Column(Order = 0), Key]
         public int OrderId { get; set; }
-        [Column(Order = 1), Key]
+
         public int BookId { get; set; }
         public int Quantity { get; set; }
         public double Price { get; set; }
+
         [ForeignKey("OrderId")]
-        public Order Orders { get; set; }
+        public virtual Order Orders { get; set; }
+
         [ForeignKey("BookId")]
-        public Book Book { get; set; }
+        public virtual Book Book { get; set; }
     }
 }

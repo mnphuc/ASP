@@ -1,4 +1,4 @@
-﻿namespace Project.Models.Migrations
+namespace Project.Models.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -9,9 +9,7 @@
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
-            ContextKey = "Project.Models.DB_SHOP";
-            AutomaticMigrationDataLossAllowed = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(Project.Models.DB_SHOP context)

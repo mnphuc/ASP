@@ -62,6 +62,10 @@
     <Compile Include="DataMapper\UserRegisterModel.cs" />
     <Compile Include="DataMapper\Users.cs" />
     <Compile Include="DB_SHOP.cs" />
+    <Compile Include="Migrations\202011240738532_init.cs" />
+    <Compile Include="Migrations\202011240738532_init.Designer.cs">
+      <DependentUpon>202011240738532_init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,6 +73,10 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202011240738532_init.resx">
+      <DependentUpon>202011240738532_init.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

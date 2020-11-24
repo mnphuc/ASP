@@ -14,8 +14,7 @@ namespace Project.Models.DataMapper
         [Required]
         public int OrderId { get; set; }
 
-        [ForeignKey("UserId")]
-        public Users Users { get; set; }
+      
         [Required]
         public string FullName { get; set; }
         [Required]
@@ -28,5 +27,11 @@ namespace Project.Models.DataMapper
         public string PaymentMethods { get; set; }
         public byte Status { get; set; }
         public DateTime Created { get; set; }
+
+        public int UserId { get; set; }
+        [ForeignKey("UserId")]
+        public virtual Users Users { get; set; }
+
+        public virtual ICollection<OrderDetail> OrderDetail { get; set; }
     }
 }

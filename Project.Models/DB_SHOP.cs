@@ -8,10 +8,13 @@ namespace Project.Models
 
     public partial class DB_SHOP : DbContext
     {
+        //Enable-Migrations
+        //Add-Migration init
+        //Update-Database
         public DB_SHOP()
             : base("name=DB_SHOP")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DB_SHOP, Migrations.Configuration>("DB_SHOP"));
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<DB_SHOP, Migrations.Configuration>("DB_SHOP"));
         }
 
         public virtual DbSet<Users> Users { get; set; }
@@ -23,5 +26,6 @@ namespace Project.Models
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<FeedBackForm> FeedBackForms { get; set; }
+
     }
 }

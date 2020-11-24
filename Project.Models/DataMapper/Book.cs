@@ -27,7 +27,13 @@ namespace Project.Models.DataMapper
         public DateTime? Update_at { get; set; }
         [Required]
         public bool Status { get; set; }
+
+        public int UserId { get; set; }
+       
         [ForeignKey("UserId")]
-        public Users Users { get; set; }
+        public virtual Users Users { get; set; }
+
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
+       
 }

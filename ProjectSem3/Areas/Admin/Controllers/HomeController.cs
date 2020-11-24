@@ -19,7 +19,7 @@ namespace ProjectSem3.Areas.Admin.Controllers
         public ActionResult Index()
         {
             Users users1 = new Users();
-            users1.userName = "abc";
+            users1.UserName = "abc";
             if (_user.Add(users1))
             {
 
