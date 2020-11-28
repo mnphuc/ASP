@@ -13,6 +13,15 @@ namespace Project.Models
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<DB_SHOP, Migrations.Configuration>("DB_SHOP"));
         }
+
         public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<Group> Groups { get; set; }
+        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<Business> Businesses { get; set; }
+        public virtual DbSet<GroupRoles> GroupRoles { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+        public virtual DbSet<FeedBackForm> FeedBackForms { get; set; }
     }
 }

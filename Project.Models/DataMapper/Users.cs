@@ -10,7 +10,6 @@ namespace Project.Models.DataMapper
     public class Users
     {   
         [Key]
-        [Required]
         public int UserId { get; set; }
 
         [Display(Name = "User Name")]
@@ -32,5 +31,10 @@ namespace Project.Models.DataMapper
         public string Phone { get; set; }
         [Required]
         public bool Status { get; set; }
+
+        //public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
+
+        public virtual ICollection<FeedBackForm> FeedBackForms { get; set; }
     }
 }

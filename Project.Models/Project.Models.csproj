@@ -50,6 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataMapper\Book.cs" />
+    <Compile Include="DataMapper\Business.cs" />
+    <Compile Include="DataMapper\FeedBackForm.cs" />
+    <Compile Include="DataMapper\Group.cs" />
+    <Compile Include="DataMapper\GroupRoles.cs" />
+    <Compile Include="DataMapper\Order.cs" />
+    <Compile Include="DataMapper\OrderDetail.cs" />
+    <Compile Include="DataMapper\Role.cs" />
     <Compile Include="DataMapper\Users.cs" />
     <Compile Include="DB_SHOP.cs" />
     <Compile Include="Migrations\Configuration.cs" />

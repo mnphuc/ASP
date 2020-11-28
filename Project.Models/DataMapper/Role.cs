@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class Role
+   public class Role
     {
         [Key]
-
         public string RoleId { get; set; }
         [Required]
         public string RoleName { get; set; }

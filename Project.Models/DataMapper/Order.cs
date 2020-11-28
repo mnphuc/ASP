@@ -8,14 +8,11 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class Order
+    public class Order
     {
         [Key]
-        [Required]
         public int OrderId { get; set; }
 
-        [ForeignKey("UserId")]
-        public Users Users { get; set; }
         [Required]
         public string FullName { get; set; }
         [Required]
@@ -24,9 +21,12 @@ namespace Project.Models.DataMapper
         public string Phone { get; set; }
         [Required]
         public string Address { get; set; }
-        public float? TotalPrice { get; set; }
+        public float TotalPrice { get; set; }
         public string PaymentMethods { get; set; }
         public byte Status { get; set; }
         public DateTime Created { get; set; }
+        
+       
+
     }
 }

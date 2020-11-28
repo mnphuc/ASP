@@ -18,12 +18,6 @@ namespace ProjectSem3.Areas.Admin.Controllers
         // GET: Admin/Home
         public ActionResult Index()
         {
-            Users users1 = new Users();
-            users1.userName = "abc";
-            if (_user.Add(users1))
-            {
-
-            }
             var users = _user.GetAll();
             ViewBag.users = users;
             return View(_user.GetAll());

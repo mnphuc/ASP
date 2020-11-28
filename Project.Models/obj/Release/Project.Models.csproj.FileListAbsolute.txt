@@ -1,0 +1,12 @@
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\Project.Models.dll.config
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\Project.Models.dll
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\Project.Models.pdb
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\EntityFramework.dll
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\EntityFramework.xml
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Release\Project.Models.csprojAssemblyReference.cache
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Release\Project.Models.csproj.CoreCompileInputs.cache
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Release\Project.Models.csproj.CopyComplete
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Release\Project.Models.dll
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Release\Project.Models.pdb

@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class Book
+    public class Book
     {
         [Key]
         [Required]
         public int BookId { get; set; }
         [Required]
         public string BookName { get; set; }
+        public int UserId { get; set; }
         [Required]
         public string BookTitle { get; set; }
         public string BookDescription { get; set; }
@@ -29,5 +30,6 @@ namespace Project.Models.DataMapper
         public bool Status { get; set; }
         [ForeignKey("UserId")]
         public Users Users { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

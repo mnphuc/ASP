@@ -10,3 +10,15 @@ C:\Users\phucm\Documents\ProjectSem3\Project.Models\obj\Debug\Project.Models.csp
 C:\Users\phucm\Documents\ProjectSem3\Project.Models\obj\Debug\Project.Models.csproj.CopyComplete
 C:\Users\phucm\Documents\ProjectSem3\Project.Models\obj\Debug\Project.Models.dll
 C:\Users\phucm\Documents\ProjectSem3\Project.Models\obj\Debug\Project.Models.pdb
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\Project.Models.dll.config
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\Project.Models.dll
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\Project.Models.pdb
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\EntityFramework.dll
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\EntityFramework.xml
+C:\Users\phucm\Documents\ASP\Project.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Debug\Project.Models.csprojAssemblyReference.cache
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Debug\Project.Models.csproj.CoreCompileInputs.cache
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Debug\Project.Models.csproj.CopyComplete
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Debug\Project.Models.dll
+C:\Users\phucm\Documents\ASP\Project.Models\obj\Debug\Project.Models.pdb
