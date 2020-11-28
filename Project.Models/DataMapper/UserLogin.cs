@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class UserLogin
+    public class UserLogin
     {
         [Required]
         public string UserName { get; set; }

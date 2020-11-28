@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Project.Models.DataMapper
 {
-    class Book
+    public class Book
     {
         [Key]
         [Required]
