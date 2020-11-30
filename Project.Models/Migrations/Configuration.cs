@@ -9,7 +9,9 @@ namespace Project.Models.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            ContextKey = "Project.Models.DB_SHOP";
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(Project.Models.DB_SHOP context)

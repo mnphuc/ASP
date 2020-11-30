@@ -14,7 +14,7 @@ namespace Project.Models
         public DB_SHOP()
             : base("name=DB_SHOP")
         {
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<DB_SHOP, Migrations.Configuration>("DB_SHOP"));
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DB_SHOP, Migrations.Configuration>("DB_SHOP"));
         }
 
         public virtual DbSet<Users> Users { get; set; }

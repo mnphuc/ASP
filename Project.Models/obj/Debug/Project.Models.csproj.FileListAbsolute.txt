@@ -21,6 +21,3 @@ C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.csproj.Co
 C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.csproj.CopyComplete
 C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.dll
 C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.pdb
-C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.csprojAssemblyReference.cache
-C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.Migrations.init.resources
-C:\Users\PC\Desktop\SemIII\ASP\Project.Models\obj\Debug\Project.Models.csproj.GenerateResource.cache
