@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Project.BAL",
+    "\\Project.BAL\\Properties",
+    "\\Project.Models",
+    "\\Project.Models\\DataMapper",
+    "\\ProjectSem3",
+    "\\ProjectSem3\\Areas",
+    "\\ProjectSem3\\Areas\\Admin",
+    "\\ProjectSem3\\Areas\\Admin\\Controllers",
+    "\\ProjectSem3\\Areas\\Admin\\Views",
+    "\\ProjectSem3\\Controllers"
+  ],
+  "SelectedNode": "\\ProjectSem3.sln",
+  "PreviewInSolutionExplorer": false
+}
