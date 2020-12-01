@@ -11,33 +11,35 @@ namespace Project.Models.DataMapper
     {
         [Required(ErrorMessage = "Vui lòng nhập họ và tên")]
         [StringLength(50, MinimumLength = 8, ErrorMessage = "Tên phải từ 8 - 50 kí tự!")]
-        [Display(Name = "Tài khoản")]
+        [Display(Name = "FullName")]
         public string FullName { get; set; }
+
         [Required(ErrorMessage = "Vui lòng nhập tài khoản!")]
         [StringLength(16, MinimumLength = 8, ErrorMessage = "Tài khoản phải từ 8 - 16 kí tự!")]
-        [Display(Name = "Tài khoản")]
+        [Display(Name = "UserName")]
         public string UserName { get; set; }
+
         [Required(ErrorMessage = "Vui lòng nhập mật khẩu!")]
         [DataType(DataType.Password)]
-        [Display(Name = "Mật khẩu")]
+        [Display(Name = "Password")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Vui lòng xác nhận mật khẩu!")]
         [Compare("Password", ErrorMessage = "Mật khẩu không khớp!")]
-        [Display(Name = "Xác nhận mật khẩu")]
+        [Display(Name = "ConfirmPassword")]
         public string ConfirmPassword { get; set; }
-        [Required(ErrorMessage = "Vui lòng nhập email!")]
+
+        [Required(ErrorMessage = "Email!")]
         [DataType(DataType.EmailAddress, ErrorMessage = "Vui lòng nhập đúng định dạng email")]
         [RegularExpression(@"[\w]+@[\w]+\.[a-zA-Z]{2,4}", ErrorMessage = "Vui lòng nhập đúng định dạng email")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Vui lòng nhập phone!")]
-        [DataType(DataType.EmailAddress, ErrorMessage = "Vui lòng nhập đúng định dạng phone")]
-        [RegularExpression(@"^[0]{1}\\d{10}$", ErrorMessage = "Vui lòng nhập đúng định dạng phone")]
+
+        [Required(ErrorMessage = "Phone")]
+        /*[DataType(DataType.PhoneNumber, ErrorMessage = "Vui lòng nhập đúng định dạng phone")]*/
+        /*[RegularExpression(@"^[0]{1}\\d{10}$", ErrorMessage = "Vui lòng nhập đúng định dạng phone")]*/
         public string Phone { get; set; }
-        [Required(ErrorMessage = "Vui lòng nhập ngày sinh!")]
-        [DataType(DataType.Date, ErrorMessage = "Vui lòng nhập đúng định dạng ngày tháng!")]
-        public DateTime Birthday { get; set; }
+
         [Required(ErrorMessage = "Vui lòng nhập địa chỉ !")]
         public string Address { get; set; }
 

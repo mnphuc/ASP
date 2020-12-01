@@ -16,17 +16,18 @@ namespace Project.Models.DataMapper
 
         [Display(Name = "User Name")]
         [Required]
-        public String UserName { get; set; }
+        public string UserName { get; set; }
         [Display(Name = "Pass Word")]
         [Required]
-        public String PassWord { get; set; }
+        public string PassWord { get; set; }
 
         [Display(Name ="Full Name")]
         [Required]
-        public String FullName { get; set; }
+        public string FullName { get; set; }
+
         [Display(Name = "Address")]
         [Required]
-        public String Address { get; set; }
+        public string Address { get; set; }
         [Required]
         public string Email { get; set; }
         [Required]
@@ -34,6 +35,9 @@ namespace Project.Models.DataMapper
         [Required]
         public bool Status { get; set; }
 
+        public int GroupId { get; set; }
+        [ForeignKey("GroupId")]
+        public Group Groups { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
     }
 }

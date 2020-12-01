@@ -87,6 +87,8 @@ C:\Users\phucm\Documents\ProjectSem3\ProjectSem3\bin\Project.Models.dll.config
 C:\Users\phucm\Documents\ProjectSem3\ProjectSem3\bin\EntityFramework.xml
 C:\Users\phucm\Documents\ProjectSem3\ProjectSem3\bin\EntityFramework.SqlServer.dll
 C:\Users\phucm\Documents\ProjectSem3\ProjectSem3\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\ProjectSem3.dll.config
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\ProjectSem3.dll
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\ProjectSem3.pdb
@@ -175,8 +177,6 @@ C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\System.Web.WebPages.Razor.xml
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\Newtonsoft.Json.xml
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\Antlr3.Runtime.pdb
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.csprojAssemblyReference.cache
-C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.csproj.CopyComplete
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.dll
 C:\Users\PC\Desktop\SemIII\ASP\ProjectSem3\obj\Debug\ProjectSem3.pdb
